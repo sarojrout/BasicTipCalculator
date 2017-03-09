@@ -14,6 +14,7 @@
 		330F92571E705C7400F73E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330F92551E705C7400F73E88 /* LaunchScreen.storyboard */; };
 		330F92621E705C7400F73E88 /* BasicTipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330F92611E705C7400F73E88 /* BasicTipCalculatorTests.swift */; };
 		330F926D1E705C7400F73E88 /* BasicTipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330F926C1E705C7400F73E88 /* BasicTipCalculatorUITests.swift */; };
+		330F927B1E71244D00F73E88 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330F927A1E71244D00F73E88 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		330F92681E705C7400F73E88 /* BasicTipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicTipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		330F926C1E705C7400F73E88 /* BasicTipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTipCalculatorUITests.swift; sourceTree = "<group>"; };
 		330F926E1E705C7400F73E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330F927A1E71244D00F73E88 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		330F92401E705C7400F73E88 = {
 			isa = PBXGroup;
 			children = (
+				330F927A1E71244D00F73E88 /* SettingsViewController.swift */,
 				330F924B1E705C7400F73E88 /* BasicTipCalculator */,
 				330F92601E705C7400F73E88 /* BasicTipCalculatorTests */,
 				330F926B1E705C7400F73E88 /* BasicTipCalculatorUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				330F924F1E705C7400F73E88 /* ViewController.swift in Sources */,
 				330F924D1E705C7400F73E88 /* AppDelegate.swift in Sources */,
+				330F927B1E71244D00F73E88 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
